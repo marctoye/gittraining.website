@@ -13,5 +13,10 @@ namespace GitTraining.Controllers
         {
             return View();
         }
+
+        public ActionResult Commands()
+        {
+            return View();
+        }
     }
 }
