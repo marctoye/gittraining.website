@@ -8,8 +8,7 @@ namespace GitTraining.Controllers
 {
     public class GitController : Controller
     {
-        // GET: Git
-        public ActionResult Index()
+        public ActionResult Branching()
         {
             return View();
         }
@@ -18,5 +17,12 @@ namespace GitTraining.Controllers
         {
             return View();
         }
+
+        // GET: Git
+        public ActionResult Index()
+        {
+            return View();
+        }
+
     }
 }
